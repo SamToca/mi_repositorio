@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 20px;
+}
+.Contenedor{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+
+.Contenedor img{
+    opacity:0.4;
+    filter:alpha(opacity=40);
+    width: 100%;
+    height: 100%;
+}
+
+.txt{
+    display: block;
+    position: absolute;
+    bottom: 30%;
+    z-index: 10;
+    background: rgba(0,0,0,.3);
+    width: 100%;
+    height: 40%;
+    padding: 10px;
+    -webkit-transition:all 1s ease;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 35px;
+}
+.txt h1{
+    font-size: 45px;
+}
+
+.encabezado{
+    text-align: center;
+    font-family:'Noto Sans JP', sans-serif;
+    font-size: 20px;
+}
+
+.Contenedor:hover .txt{
+    height: 25%;
+    display: block;
+}
+.pantalonImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.redes{
+    height: 150px;
+    background-color: #9b9b9b;
+    padding: 30px;
+    opacity:0.8;
+    filter:alpha(opacity=80);
+}
+
+.redes p{
+    font-family:'Noto Sans JP', sans-serif;
+    text-align: center;
+}
+
+.sociales{
+    text-align: center;
+    padding-top: 15px;
+}
+
+.sociales li{
+    display: inline-block;
+}
+
+.sociales li a{
+    padding: 10px;
+}
+
+.nosotros{
+    text-align: center;
+    font-family:'Noto Sans JP', sans-serif;
+    font-size: 20px;
+    padding: 30px;
+}
+
+strong{
+    font-size: 50px;
+}
+
+.Pantalones{
+    text-align: center;
+    font-family:'Noto Sans JP', sans-serif;
+    font-size: 20px;
+    padding: 30px;
+}
+
+.Preguntas{
+    text-align: center;
+    font-family:'Noto Sans JP', sans-serif;
+    font-size: 20px;
+    padding: 30px;
+}
+
+.pregun{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.mayorista{
+    text-align: center;
+    font-family:'Noto Sans JP', sans-serif;
+    font-size: 20px;
+    padding: 30px;
+}
+
+.blog{
+    text-align: center;
+    font-family:'Noto Sans JP', sans-serif;
+    font-size: 20px;
+    padding: 30px;
+}
